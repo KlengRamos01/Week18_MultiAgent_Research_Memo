@@ -1,0 +1,972 @@
+{
+  "note": "Complete manual rubric review and compute ratio as described in EVALUATION.md.",
+  "baseline": [
+    {
+      "topic_id": "T01",
+      "memo": "**Memo: Assessment of Rooftop Solar Installation Trends in Northstar**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Trends in Rooftop Solar Installations in Northstar\n\nThis memo provides an overview of the trends in rooftop solar installations in the Northstar region, based on data from 2024 and 2025. \n\nIn 2025, Northstar installed a total of 120 megawatts (MW) of rooftop solar capacity, reflecting a growth from 100 MW in 2024. This increase indicates a positive trend in the adoption of solar technology within the region [P01]. The breakdown of installations reveals that residential rooftop solar capacity rose from 40 MW in 2024 to 55 MW in 2025, while commercial installations saw a smaller increase from 60 MW to 65 MW during the same period [P02]. This data suggests a growing interest in residential solar solutions, potentially driven by factors such as increased awareness of renewable energy benefits and financial incentives.\n\nAdditionally, the market for home battery systems, which complement solar installations, also experienced growth. The fictional company Solara reported sales of 4,000 home battery units in 2025, up from 3,000 in 2024, indicating a rising trend in energy storage solutions [P03]. The average installed price of these batteries decreased from 8,000 credits in 2024 to 7,600 credits in 2025, which may further encourage adoption among consumers [P04].\n\nIt is important to note that the data presented here is fictional and may not represent the complete market landscape. The figures for rooftop solar installations and home battery sales are based on specific sources and do not account for all market participants or external factors that could influence these trends.\n\nIn conclusion, the Northstar region is witnessing a notable increase in rooftop solar installations, particularly in the residential sector, alongside a growing market for home battery systems. Continued monitoring of these trends will be essential for understanding the future landscape of renewable energy in Northstar.\n\n---\n\n**Footnotes**  \n[P01] Fictional data on total rooftop solar installations in Northstar.  \n[P02] Breakdown of residential and commercial rooftop solar installations.  \n[P03] Sales figures for home battery units by Solara.  \n[P04] Average installed price changes for home batteries.",
+      "total_tokens": 1115,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 355,
+        "length_pass": false,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": false,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 301 words by evaluator-style regex (298 by whitespace); within 250-350. Automatic total is 355 because title/header/footnotes are included, so the automatic length check fails while the body rule passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual claims carry P01-P04; interpretations are not presented as new facts."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P01-P04; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Hedged interpretation: \"This data suggests a growing interest ... potentially driven by factors such as increased awareness ... and financial incentives.\" The speculation is explicitly qualified, not asserted as a finding."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone, descriptive title, and descriptive footnotes."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Includes a paragraph noting fictional data and incomplete market coverage."
+          }
+        }
+      },
+      "body_word_count": 301,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 301,
+        "total_word_count": 355
+      },
+      "errors": []
+    },
+    {
+      "topic_id": "T02",
+      "memo": "To: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Assessment of Solara Home Battery Sales and Pricing Trends  \n\nThis memo provides an overview of the sales and pricing trends for Solara home batteries in the fictional Northstar region, based on available data from 2024 and 2025.\n\nIn 2025, Solara sold 4,000 home battery units, reflecting a significant increase from 3,000 units sold in 2024. This growth indicates a positive trend in consumer adoption of home battery technology, although it is important to note that these figures do not represent the entire market for home batteries in Northstar [P03]. \n\nPricing trends for Solara's home batteries also show a downward trajectory. The average installed price of a Solara home battery decreased from 8,000 credits in 2024 to 7,600 credits in 2025, marking a reduction of 5% [P04]. This price adjustment may enhance the product's accessibility and appeal to a broader customer base, potentially contributing to the observed increase in sales.\n\nThe context of the broader solar market in Northstar is relevant to understanding these trends. Residential rooftop solar installations rose from 40 megawatts in 2024 to 55 megawatts in 2025, suggesting a growing interest in renewable energy solutions among homeowners [P02]. This increase in solar capacity may correlate with the rising demand for home battery systems, as consumers seek to optimize their energy usage and storage capabilities.\n\nHowever, it is essential to acknowledge the limitations of the available data. The sales figures for Solara do not encompass the entire market, and external factors influencing consumer behavior, such as economic conditions and competitive offerings, are not accounted for in this analysis. Further research would be beneficial to gain a comprehensive understanding of the home battery market dynamics in Northstar.\n\nIn conclusion, Solara's home battery sales and pricing trends indicate a favorable market position, driven by increased consumer interest in renewable energy solutions and competitive pricing strategies.\n\n---\n\nFootnotes:  \n[P01]  \n[P02]  \n[P03]  \n[P04]  ",
+      "total_tokens": 1069,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 323,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 299 words; within 250-350. Automatic total 323 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual claims cite P02-P04; the P02 solar-context claim is cited."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "P02-P04 are valid; P01 appears only in an unused footnote."
+          },
+          "evidence_vs_interpretation": {
+            "pass": false,
+            "evidence": "Conclusion asserts an unsupported causal/evaluative claim: \"Solara's home battery sales and pricing trends indicate a favorable market position, driven by increased consumer interest in renewable energy solutions and competitive pricing strategies.\" The corpus does not measure market position, consumer interest, or competitive strategy."
+          },
+          "tone_title_footnotes": {
+            "pass": false,
+            "evidence": "Footnotes are empty labels: \"[P01]\" through \"[P04]\" with no source descriptions; P01 is unused. This does not meet the footnote requirement."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Includes a limitations paragraph about market coverage and missing external factors."
+          }
+        }
+      },
+      "body_word_count": 299,
+      "review": {
+        "rubric_pass": false,
+        "failed_items": [
+          "evidence_vs_interpretation",
+          "tone_title_footnotes"
+        ],
+        "body_word_count": 299,
+        "total_word_count": 323
+      },
+      "errors": []
+    },
+    {
+      "topic_id": "T03",
+      "memo": "**Memo: Assessment of SwiftCart Delivery Growth, Reliability, and Costs**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Analysis of SwiftCart's Performance in 2025\n\nThis memo provides an assessment of SwiftCart's delivery growth, reliability, and costs based on the available data for the year 2025.\n\nIn 2025, SwiftCart completed 1 million deliveries, marking a significant increase from 800,000 deliveries in 2024, which represents a growth rate of 25% year-over-year [P05]. This growth aligns with the broader trend of increasing online grocery purchases in the Northstar region, where 600 out of 1,000 respondents reported buying groceries online in 2025, up from 520 in 2024 [P07]. The rising demand for online grocery services likely contributed to SwiftCart's delivery expansion.\n\nReliability is a critical factor for customer satisfaction in delivery services. SwiftCart's on-time delivery rate improved from 90% in 2024 to 92% in 2025 [P05]. This enhancement in reliability is noteworthy, especially as 360 of the 600 online grocery buyers surveyed indicated that delivery reliability was their top priority [P08]. Such improvements may enhance customer loyalty and repeat business.\n\nHowever, the cost of delivery has increased. SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs [P06]. This 8% increase in delivery costs could impact profitability if not managed effectively, especially in a competitive market where price sensitivity may be high.\n\nIn conclusion, while SwiftCart has demonstrated robust growth and improved reliability in 2025, the rising costs present a challenge that warrants strategic attention. Continued monitoring of operational efficiencies and cost management will be essential to sustain growth and maintain competitive pricing.\n\n**Data Limitations**: The analysis is based on fictional data and does not reflect real-world conditions. The figures presented may not encompass all market dynamics or competitive factors affecting SwiftCart's performance.\n\n---\n\n**Footnotes**  \n[P05] SwiftCart delivery statistics.  \n[P06] SwiftCart cost analysis.  \n[P07] Northstar online grocery survey results.  \n[P08] Consumer preferences in online grocery shopping.",
+      "total_tokens": 1113,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 329,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 291 words; within 250-350. Automatic total 329 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual claims cite P05-P08, including the cost attribution to P06."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P05-P08; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Speculation is hedged: \"likely contributed\", \"may enhance\", \"could impact\". No unhedged causal claim."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone; descriptive footnotes P05-P08."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Includes a data-limitations paragraph."
+          }
+        }
+      },
+      "body_word_count": 291,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 291,
+        "total_word_count": 329
+      },
+      "errors": []
+    },
+    {
+      "topic_id": "T04",
+      "memo": "**Memo: Assessment of Online Grocery Adoption and Delivery Reliability in Northstar**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Online Grocery Adoption and Delivery Reliability in Northstar\n\nThis memo provides an assessment of online grocery adoption and delivery reliability in the fictional Northstar region, based on recent survey data and delivery performance metrics.\n\nIn 2025, the adoption of online grocery shopping in Northstar showed a significant increase. According to a survey conducted in the region, 600 out of 1,000 respondents reported purchasing groceries online, up from 520 in 2024. This indicates a growth rate of approximately 15.4% year-over-year in online grocery shoppers [P07]. The survey highlights a growing trend towards digital grocery shopping, reflecting changing consumer preferences.\n\nDelivery reliability emerged as a critical factor for online grocery shoppers. Among the 600 respondents who bought groceries online, 360 indicated that delivery reliability was their primary concern when selecting a service [P08]. This suggests that while adoption is increasing, consumers are particularly attentive to the reliability of delivery services, which may influence their choice of grocery providers.\n\nThe delivery performance of SwiftCart, a key player in the Northstar delivery market, supports these consumer concerns. In 2025, SwiftCart completed 1 million deliveries, an increase from 800,000 in 2024, with an on-time delivery rate improving from 90% to 92% [P05]. This enhancement in delivery reliability may contribute positively to customer satisfaction and retention in the online grocery sector.\n\nHowever, it is important to acknowledge data limitations. The survey results reflect respondent preferences rather than actual transaction volumes, and the delivery metrics pertain only to SwiftCart, which may not represent the entire market landscape. Additionally, the survey did not explore other factors influencing grocery purchasing decisions, limiting a comprehensive understanding of consumer behavior.\n\nIn conclusion, the Northstar region is witnessing a notable increase in online grocery adoption, with delivery reliability being a significant factor for consumers. Continued monitoring of these trends and delivery performance will be essential for stakeholders in the grocery and delivery sectors.\n\n---\n\n**Footnotes:**\n\n[P01]  \n[P02]  \n[P03]  \n[P04]  \n[P05]  \n[P06]  \n[P07]  \n[P08]  \n[P09]  \n[P10]  \n[P11]  \n[P12]  ",
+      "total_tokens": 1122,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 348,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 317 words; within 250-350. Automatic total 348 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual claims cite P05, P07, P08; the 15.4% calculation is correctly derived from P07."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "All listed IDs are valid; no invented sources."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Uses hedged interpretation (\"suggests\", \"may influence\", \"may contribute\") and keeps survey limits visible."
+          },
+          "tone_title_footnotes": {
+            "pass": false,
+            "evidence": "Footnotes list empty labels \"[P01]\" through \"[P12]\" (12 empty entries, including 9 unused IDs) instead of source descriptions."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Includes a limitations paragraph on survey versus transaction data, SwiftCart-only delivery metrics, and missing factors."
+          }
+        }
+      },
+      "body_word_count": 317,
+      "review": {
+        "rubric_pass": false,
+        "failed_items": [
+          "tone_title_footnotes"
+        ],
+        "body_word_count": 317,
+        "total_word_count": 348
+      },
+      "errors": []
+    },
+    {
+      "topic_id": "T05",
+      "memo": "**Memo**\n\n**To:** [Recipient Name]  \n**From:** [Your Name]  \n**Date:** [Current Date]  \n**Subject:** Assessment of CareBridge Remote Consultations and Patient Satisfaction\n\nThis memo provides an assessment of CareBridge's remote consultations and associated patient satisfaction based on the available data from 2025.\n\nIn 2025, CareBridge conducted a total of 24,000 remote consultations, marking an increase from 20,000 consultations in 2024. This growth indicates a rising trend in the adoption of remote healthcare services, with remote consultations accounting for 30% of all consultations conducted by CareBridge in 2025 [P09]. \n\nPatient satisfaction with these remote consultations has also shown improvement. According to a patient survey conducted by CareBridge, satisfaction rates for remote consultations rose to 80% in 2025, up from 78% in 2024 [P10]. This increase suggests that patients are increasingly finding value in remote consultations, although it is important to note that the surveys utilized different respondents each year, which may affect the comparability of the satisfaction rates.\n\nWhile the data indicates positive trends in both the volume of remote consultations and patient satisfaction, there are limitations to consider. The survey methodology employed by CareBridge does not allow for a direct comparison of the same patient experiences over time, which could provide deeper insights into satisfaction changes. Additionally, the overall context of patient demographics and specific feedback on remote consultations is not detailed in the available data, limiting a comprehensive understanding of patient experiences.\n\nIn conclusion, CareBridge's remote consultations appear to be gaining traction and improving in patient satisfaction. However, further research with consistent respondent tracking and qualitative feedback would enhance the understanding of patient experiences and areas for improvement.\n\n**Footnotes**  \n[P09] CareBridge conducted 24,000 remote consultations in 2025, up from 20,000 in 2024.  \n[P10] CareBridge's patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024.",
+      "total_tokens": 1050,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 301,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": false,
+            "evidence": "Body is 249 words by evaluator-style regex (247 by whitespace), below the 250-word minimum. Automatic total is 301 because header/footnotes are included, so the automatic check passes while the body rule fails."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual claims cite P09 and P10."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P09 and P10; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Notes the different-respondents limitation and uses hedged language (\"appear\", \"suggests\")."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone; descriptive footnotes for P09-P10."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Includes survey-methodology and missing-demographic limitations."
+          }
+        }
+      },
+      "body_word_count": 249,
+      "review": {
+        "rubric_pass": false,
+        "failed_items": [
+          "length_250_350_body"
+        ],
+        "body_word_count": 249,
+        "total_word_count": 301
+      },
+      "errors": []
+    }
+  ],
+  "multi_agent": [
+    {
+      "topic_id": "T01",
+      "memo": "Rooftop Solar Trends in Northstar\n\nIn 2025, the Northstar region installed 120 megawatts of rooftop solar, which is an increase from 100 megawatts in 2024 [P01]. This represents a total increase of 20 megawatts in rooftop solar installations year-over-year [P01]. Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025, marking a rise of 15 megawatts in this segment [P02]. Meanwhile, commercial installations saw a smaller increase, moving from 60 to 65 megawatts over the same period, which is an increase of 5 megawatts [P02]. The total increase in residential rooftop solar capacity from 2024 to 2025 is 15 megawatts, while commercial capacity increased by 5 megawatts [P02]. The overall trend shows a growing interest in rooftop solar installations in Northstar, with both residential and commercial sectors contributing to this growth [P01][P02].\n\nInterpretation: The data shows that rooftop solar installations in Northstar increased in both residential and commercial sectors.\n\nLimitations: The source does not provide information on the total number of installations or the specific types of solar technologies used. There is no detail on the geographic distribution of installations within Northstar. The data does not indicate the reasons behind the increases in capacity. Additionally, there is no information on the impact of these installations on energy consumption or savings. The source does not discuss any regulatory or policy changes that may have influenced these trends. There is no mention of the competitive landscape or market dynamics affecting rooftop solar installations. The memo lacks information on consumer adoption rates for rooftop solar installations in Northstar.\n\nFootnotes:\n[P01] Northstar rooftop solar data, 2025.\n[P02] Northstar residential and commercial solar data, 2025.",
+      "total_tokens": 18999,
+      "turns": 5,
+      "rejections": 1,
+      "mcp_calls": 4,
+      "status": "completed",
+      "run_id": "T01",
+      "resumed": true,
+      "scratchpad": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/scratchpad/run-T01.json",
+      "trace": [
+        {
+          "at": "2026-11-18T07:30:22+00:00",
+          "node": "researcher",
+          "turn": 0,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "MCP search_corpus returned 3 cited snippets via 4 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+        },
+        {
+          "at": "2026-11-19T02:53:10+00:00",
+          "node": "run_topic",
+          "turn": 0,
+          "handoff": "resume",
+          "status": "running",
+          "note": "Resumed from run-T01.json"
+        },
+        {
+          "at": "2026-11-19T02:53:10+00:00",
+          "node": "supervisor",
+          "turn": 1,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Cited snippets are available and no draft exists; handing off to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:53:37+00:00",
+          "node": "writer",
+          "turn": 1,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 275-word body with 2 cited source(s) after 5 attempt(s), 0 evidence expansion(s) and 1 limitation expansion(s); 10963 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:53:37+00:00",
+          "node": "supervisor",
+          "turn": 2,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:53:41+00:00",
+          "node": "memory",
+          "turn": 2,
+          "handoff": "compact",
+          "status": "running",
+          "note": "Compacted 4 messages (11092 -> 206 tokens)."
+        },
+        {
+          "at": "2026-11-19T02:53:43+00:00",
+          "node": "reviewer",
+          "turn": 2,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: revise (1 rejection(s) so far). Reasons: The Interpretation sentence must not contain numbers; it should state only the direction of the cited changes.; The title is overly long: 'Rooftop Solar Installation Trends in Northstar' should be more concise.; Footnotes are not concise source notes: '[P01] Northstar rooftop solar installation data, 2025.' and '[P02] Northstar residential and commercial rooftop solar data, 2025.' are too detailed."
+        },
+        {
+          "at": "2026-11-19T02:53:43+00:00",
+          "node": "supervisor",
+          "turn": 3,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Reviewer requested a revision; handing back to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:53:58+00:00",
+          "node": "writer",
+          "turn": 3,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 256-word body with 2 cited source(s) after 3 attempt(s), 0 evidence expansion(s) and 0 limitation expansion(s); 6080 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:53:58+00:00",
+          "node": "supervisor",
+          "turn": 4,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:53:59+00:00",
+          "node": "reviewer",
+          "turn": 4,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: accept (1 rejection(s) so far). Reasons: All rubric items pass."
+        },
+        {
+          "at": "2026-11-19T02:53:59+00:00",
+          "node": "supervisor",
+          "turn": 5,
+          "handoff": "end",
+          "status": "completed",
+          "note": "Reviewer accepted the memo; run complete."
+        }
+      ],
+      "metrics": {
+        "transcript_tokens": 7987,
+        "compaction_events": 1
+      },
+      "errors": [
+        "writer validation: The Interpretation sentence must not contain numbers; it should state only the direction of the cited changes."
+      ],
+      "checks": {
+        "word_count": 276,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 261 words; within 250-350. Automatic total 276 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Factual capacity figures and derived increases cite P01/P02."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P01 and P02; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": false,
+            "evidence": "Main body says \"The overall trend shows a growing interest in rooftop solar installations\" [P01][P02]. The corpus measures installed capacity, not interest; this is an unlabeled behavioral inference, not just a cited fact. The separate Interpretation sentence is acceptable, but the main-body claim overreaches."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone and concise title/footnotes. Caveat: the body repeats the 20/15/5 MW figures and has an unusually long limitations block; verbose but not unprofessional."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Thorough limitations block (seven caveats) covering missing installation counts, technology, geography, causes, policy, competition, and adoption rates."
+          }
+        }
+      },
+      "body_word_count": 261,
+      "review": {
+        "rubric_pass": false,
+        "failed_items": [
+          "evidence_vs_interpretation"
+        ],
+        "body_word_count": 261,
+        "total_word_count": 276
+      }
+    },
+    {
+      "topic_id": "T02",
+      "memo": "Solara Home Battery Sales and Pricing Trends\n\nIn 2025, Solara sold 4,000 home battery units in Northstar, compared with 3,000 units sold in 2024 [P03]. Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025 [P04]. The sales count of 4,000 units does not represent the entire market [P03]. The average installed price of 7,600 credits excludes maintenance costs [P04].\n\nInterpretation: Sales increased while the average price decreased.\n\nLimitations: The sales figures provided do not account for the overall market size or the performance of competitors. There is no information on customer demographics or preferences that could influence sales. The data does not specify the geographical distribution of sales beyond Northstar. Additionally, the impact of external factors such as economic conditions or regulatory changes is not addressed. The pricing trend does not include any potential variations in installation costs or additional fees that may apply. Lastly, the absence of future projections limits the understanding of long-term trends. The memo does not provide insights into customer satisfaction or feedback regarding the home batteries. There is no analysis of the marketing strategies employed by Solara to drive sales. The memo lacks information on the competitive landscape and how it affects Solara's market position. No details are given about the warranty or service options available for the home batteries. The memo does not discuss the reasons behind the sales increase or price reduction. There is no analysis of the impact of marketing campaigns on sales performance. The memo lacks information on the technological advancements of Solara's home batteries. No details are provided regarding customer acquisition costs or sales channels utilized.\n\nFootnotes:\n[P03] Solara sales figures for home batteries, 2024-2025.\n[P04] Solara average installed price of home batteries, 2024-2025.",
+      "total_tokens": 12328,
+      "turns": 4,
+      "rejections": 0,
+      "mcp_calls": 6,
+      "status": "completed",
+      "run_id": "T02",
+      "resumed": false,
+      "scratchpad": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/scratchpad/run-T02.json",
+      "trace": [
+        {
+          "at": "2026-11-19T02:53:59+00:00",
+          "node": "supervisor",
+          "turn": 1,
+          "handoff": "hand_off_to_researcher",
+          "status": "running",
+          "note": "No cited snippets in shared state; handing off to the Researcher for corpus retrieval."
+        },
+        {
+          "at": "2026-11-19T02:54:00+00:00",
+          "node": "researcher",
+          "turn": 1,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "MCP search_corpus returned 3 cited snippets via 6 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+        },
+        {
+          "at": "2026-11-19T02:54:00+00:00",
+          "node": "supervisor",
+          "turn": 2,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Cited snippets are available and no draft exists; handing off to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:54:28+00:00",
+          "node": "writer",
+          "turn": 2,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 276-word body with 2 cited source(s) after 5 attempt(s), 0 evidence expansion(s) and 2 limitation expansion(s); 11073 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:54:28+00:00",
+          "node": "supervisor",
+          "turn": 3,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:54:31+00:00",
+          "node": "memory",
+          "turn": 3,
+          "handoff": "compact",
+          "status": "running",
+          "note": "Compacted 5 messages (11352 -> 241 tokens)."
+        },
+        {
+          "at": "2026-11-19T02:54:33+00:00",
+          "node": "reviewer",
+          "turn": 3,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: accept (0 rejection(s) so far). Reasons: All rubric items pass."
+        },
+        {
+          "at": "2026-11-19T02:54:33+00:00",
+          "node": "supervisor",
+          "turn": 4,
+          "handoff": "end",
+          "status": "completed",
+          "note": "Reviewer accepted the memo; run complete."
+        }
+      ],
+      "metrics": {
+        "transcript_tokens": 975,
+        "compaction_events": 1
+      },
+      "errors": [],
+      "checks": {
+        "word_count": 301,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 283 words; within 250-350. Automatic total 301 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Sales and price facts cite P03/P04; the market-coverage and maintenance exclusions are cited."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P03 and P04; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Evidence and interpretation are separated; \"Sales increased while the average price decreased\" is directly supported."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone and concise title/footnotes. Caveat: the limitations section is excessive and repetitive (14 caveats, including repeated \"memo lacks...\" phrasing); verbose but still within length and not a rubric failure."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Limitations are present, though over-abundant; they cover market coverage, demographics, geography, external factors, and missing projections."
+          }
+        }
+      },
+      "body_word_count": 283,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 283,
+        "total_word_count": 301
+      }
+    },
+    {
+      "topic_id": "T03",
+      "memo": "SwiftCart Delivery Growth and Costs Analysis\n\nSwiftCart completed 1 million deliveries in 2025, which is an increase from 800,000 deliveries in 2024 [P05]. The on-time delivery rate improved from 90% in 2024 to 92% in 2025 [P05]. SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025 [P06]. Higher fuel and labour costs were cited in its fictional annual report [P06]. The increase in delivery volume from 800,000 to 1 million deliveries represents a growth of 200,000 deliveries year-over-year [P05]. The rise in the on-time delivery rate from 90% to 92% shows an increase of 2 percentage points [P05]. The average cost per delivery increased by 0.40 credits from 5.00 credits to 5.40 credits [P06]. The report does not provide specific figures on how many deliveries were late or the reasons for delays [P05]. The source does not clarify the overall impact of higher fuel and labour costs on SwiftCart's operations [P06].\n\nInterpretation: SwiftCart experienced an increase in delivery volume and reliability alongside a rise in delivery costs.\n\nLimitations: The source does not provide details on the specific reasons for the increase in delivery costs. There is no information on customer satisfaction or feedback regarding the delivery service. The data does not include comparisons to industry benchmarks or competitors. There is no breakdown of costs associated with different delivery types or regions. The report does not specify the impact of external economic factors on SwiftCart's operations. The source does not clarify how the improvements in delivery rates were achieved.\n\nFootnotes:\n[P05] SwiftCart annual report: delivery volume, 2025.\n[P06] SwiftCart annual report: cost per delivery, 2025.",
+      "total_tokens": 8449,
+      "turns": 4,
+      "rejections": 0,
+      "mcp_calls": 5,
+      "status": "completed",
+      "run_id": "T03",
+      "resumed": false,
+      "scratchpad": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/scratchpad/run-T03.json",
+      "trace": [
+        {
+          "at": "2026-11-19T02:54:33+00:00",
+          "node": "supervisor",
+          "turn": 1,
+          "handoff": "hand_off_to_researcher",
+          "status": "running",
+          "note": "No cited snippets in shared state; handing off to the Researcher for corpus retrieval."
+        },
+        {
+          "at": "2026-11-19T02:54:33+00:00",
+          "node": "researcher",
+          "turn": 1,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "MCP search_corpus returned 3 cited snippets via 5 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+        },
+        {
+          "at": "2026-11-19T02:54:33+00:00",
+          "node": "supervisor",
+          "turn": 2,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Cited snippets are available and no draft exists; handing off to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:54:52+00:00",
+          "node": "writer",
+          "turn": 2,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 257-word body with 2 cited source(s) after 4 attempt(s), 0 evidence expansion(s) and 0 limitation expansion(s); 7120 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:54:52+00:00",
+          "node": "supervisor",
+          "turn": 3,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:54:54+00:00",
+          "node": "reviewer",
+          "turn": 3,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: accept (0 rejection(s) so far). Reasons: All rubric items pass."
+        },
+        {
+          "at": "2026-11-19T02:54:54+00:00",
+          "node": "supervisor",
+          "turn": 4,
+          "handoff": "end",
+          "status": "completed",
+          "note": "Reviewer accepted the memo; run complete."
+        },
+        {
+          "at": "2026-11-19T02:54:59+00:00",
+          "node": "memory",
+          "turn": 4,
+          "handoff": "compact",
+          "status": "completed",
+          "note": "Compacted 7 messages (8100 -> 272 tokens)."
+        }
+      ],
+      "metrics": {
+        "transcript_tokens": 304,
+        "compaction_events": 1
+      },
+      "errors": [],
+      "checks": {
+        "word_count": 279,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 263 words; within 250-350. Automatic total 279 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Delivery, reliability, and cost facts cite P05/P06, including the fuel/labour attribution."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P05 and P06; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "Direct evidence and a separate interpretation sentence; no unsupported causal claim."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone, concise title/footnotes, and a balanced limitations block."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Six relevant limitations covering delay detail, cost causes, customer feedback, benchmarks, regional breakdown, and external factors."
+          }
+        }
+      },
+      "body_word_count": 263,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 263,
+        "total_word_count": 279
+      }
+    },
+    {
+      "topic_id": "T04",
+      "memo": "Online Grocery Adoption and Delivery Reliability in Northstar\n\nIn 2025, 600 of 1,000 respondents in Northstar reported buying groceries online, compared with 520 of 1,000 in 2024, showing an increase in online grocery adoption [P07]. The same 2025 online grocery survey found that 360 of 600 online buyers valued delivery reliability most [P08]. The survey did not ask respondents to rank every purchasing factor, which limits the understanding of how delivery reliability compares to other factors in the decision-making process [P08]. The survey reports respondents, not transaction volumes, which means it does not provide insights into the total spending or frequency of purchases made by online grocery buyers [P07]. The increase in online grocery buyers from 2024 to 2025 is notable, but the survey does not specify the reasons behind this increase [P07]. Additionally, the survey lacks details on the demographics of respondents, which could influence the results [P07]. There is no data on customer satisfaction levels regarding delivery reliability [P08], and the absence of transaction volume data limits the ability to assess the overall market size and growth [P07].\n\nInterpretation: The figures show an increase in online grocery adoption and a notable emphasis on delivery reliability among buyers.\n\nLimitations: The survey does not provide information on the frequency of purchases made by online grocery buyers. It also lacks details on the demographics of respondents, which could influence the results. Additionally, the survey does not specify the reasons behind the increase in online grocery adoption. There is no data on customer satisfaction levels regarding delivery reliability. The absence of transaction volume data limits the ability to assess the overall market size and growth. Finally, the survey does not explore the impact of external factors on online grocery shopping behavior.\n\nFootnotes:\n[P07] Northstar online grocery survey: online buyers, 2025.\n[P08] Northstar online grocery survey: delivery reliability, 2025.",
+      "total_tokens": 11807,
+      "turns": 4,
+      "rejections": 0,
+      "mcp_calls": 6,
+      "status": "completed",
+      "run_id": "T04",
+      "resumed": false,
+      "scratchpad": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/scratchpad/run-T04.json",
+      "trace": [
+        {
+          "at": "2026-11-19T02:54:59+00:00",
+          "node": "supervisor",
+          "turn": 1,
+          "handoff": "hand_off_to_researcher",
+          "status": "running",
+          "note": "No cited snippets in shared state; handing off to the Researcher for corpus retrieval."
+        },
+        {
+          "at": "2026-11-19T02:55:00+00:00",
+          "node": "researcher",
+          "turn": 1,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "MCP search_corpus returned 3 cited snippets via 6 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+        },
+        {
+          "at": "2026-11-19T02:55:00+00:00",
+          "node": "supervisor",
+          "turn": 2,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Cited snippets are available and no draft exists; handing off to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:55:25+00:00",
+          "node": "writer",
+          "turn": 2,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 283-word body with 2 cited source(s) after 5 attempt(s), 0 evidence expansion(s) and 0 limitation expansion(s); 10544 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:55:25+00:00",
+          "node": "supervisor",
+          "turn": 3,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:55:30+00:00",
+          "node": "memory",
+          "turn": 3,
+          "handoff": "compact",
+          "status": "running",
+          "note": "Compacted 5 messages (10839 -> 246 tokens)."
+        },
+        {
+          "at": "2026-11-19T02:55:32+00:00",
+          "node": "reviewer",
+          "turn": 3,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: accept (0 rejection(s) so far). Reasons: All rubric items pass."
+        },
+        {
+          "at": "2026-11-19T02:55:32+00:00",
+          "node": "supervisor",
+          "turn": 4,
+          "handoff": "end",
+          "status": "completed",
+          "note": "Reviewer accepted the memo; run complete."
+        }
+      ],
+      "metrics": {
+        "transcript_tokens": 985,
+        "compaction_events": 1
+      },
+      "errors": [],
+      "checks": {
+        "word_count": 308,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 291 words; within 250-350. Automatic total 308 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Survey facts cite P07/P08; derived comparisons are tied to the cited survey."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P07 and P08; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "The 520-to-600 increase is cited; \"notable\" is a mild characterization, and the memo keeps survey limitations explicit."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone and concise title/footnotes. Caveat: several limitations are repeated in both the body and the limitations section; redundant but not a rubric failure."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Limitations cover ranked factors, respondents versus transactions, missing demographics, reasons for adoption, satisfaction, and external factors."
+          }
+        }
+      },
+      "body_word_count": 291,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 291,
+        "total_word_count": 308
+      }
+    },
+    {
+      "topic_id": "T05",
+      "memo": "CareBridge Remote Consultations and Patient Satisfaction\n\nCareBridge's fictional patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024 [P10]. The surveys used different respondents each year [P10]. In 2025, CareBridge conducted 24,000 remote consultations, which is an increase from 20,000 in 2024 [P09]. Remote consultations represented 30% of its total consultations in 2025 [P09]. The total number of consultations conducted by CareBridge is not specified [P09]. The increase in remote consultations from 20,000 to 24,000 shows a change in the volume of services provided [P09]. The satisfaction ratings for 2025 and 2024 show a change in patient perceptions of remote consultations [P10]. The data does not provide insights into the reasons behind the changes in satisfaction levels [P10]. The source does not specify the types of remote consultations conducted, which may affect the interpretation of satisfaction ratings [P09]. The overall impact of remote consultations on patient health outcomes is not addressed in the data [P09].\n\nInterpretation: The data shows an increase in patient satisfaction and a rise in remote consultations.\n\nLimitations: The survey results are based on different respondents each year, which may limit the reliability of the satisfaction comparison. The data does not provide insights into the reasons behind the increase in satisfaction. There is no information on the demographics of the respondents or their prior experiences with remote consultations. The total number of consultations is not disclosed, which limits understanding of the overall context. The source does not specify the methodology used for the surveys, which could impact the validity of the results. Additionally, there is no information on patient outcomes or the quality of care delivered during these consultations.\n\nFootnotes:\n[P10] CareBridge patient survey: satisfaction rates, 2025.\n[P09] CareBridge remote consultations data, 2025.",
+      "total_tokens": 11663,
+      "turns": 4,
+      "rejections": 0,
+      "mcp_calls": 5,
+      "status": "completed",
+      "run_id": "T05",
+      "resumed": false,
+      "scratchpad": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/scratchpad/run-T05.json",
+      "trace": [
+        {
+          "at": "2026-11-19T02:55:32+00:00",
+          "node": "supervisor",
+          "turn": 1,
+          "handoff": "hand_off_to_researcher",
+          "status": "running",
+          "note": "No cited snippets in shared state; handing off to the Researcher for corpus retrieval."
+        },
+        {
+          "at": "2026-11-19T02:55:32+00:00",
+          "node": "researcher",
+          "turn": 1,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "MCP search_corpus returned 3 cited snippets via 5 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+        },
+        {
+          "at": "2026-11-19T02:55:32+00:00",
+          "node": "supervisor",
+          "turn": 2,
+          "handoff": "hand_off_to_writer",
+          "status": "running",
+          "note": "Cited snippets are available and no draft exists; handing off to the Writer."
+        },
+        {
+          "at": "2026-11-19T02:55:57+00:00",
+          "node": "writer",
+          "turn": 2,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Writer produced a 275-word body with 2 cited source(s) after 5 attempt(s), 0 evidence expansion(s) and 0 limitation expansion(s); 10405 provider tokens."
+        },
+        {
+          "at": "2026-11-19T02:55:57+00:00",
+          "node": "supervisor",
+          "turn": 3,
+          "handoff": "hand_off_to_reviewer",
+          "status": "running",
+          "note": "A draft memo is waiting for review; handing off to the Reviewer."
+        },
+        {
+          "at": "2026-11-19T02:56:01+00:00",
+          "node": "memory",
+          "turn": 3,
+          "handoff": "compact",
+          "status": "running",
+          "note": "Compacted 5 messages (10697 -> 244 tokens)."
+        },
+        {
+          "at": "2026-11-19T02:56:03+00:00",
+          "node": "reviewer",
+          "turn": 3,
+          "handoff": "hand_back",
+          "status": "running",
+          "note": "Reviewer verdict: accept (0 rejection(s) so far). Reasons: All rubric items pass."
+        },
+        {
+          "at": "2026-11-19T02:56:03+00:00",
+          "node": "supervisor",
+          "turn": 4,
+          "handoff": "end",
+          "status": "completed",
+          "note": "Reviewer accepted the memo; run complete."
+        }
+      ],
+      "metrics": {
+        "transcript_tokens": 983,
+        "compaction_events": 1
+      },
+      "errors": [],
+      "checks": {
+        "word_count": 295,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true,
+        "rubric_items": {
+          "length_250_350_body": {
+            "pass": true,
+            "evidence": "Body 281 words; within 250-350. Automatic total 295 passes."
+          },
+          "claim_level_citations": {
+            "pass": true,
+            "evidence": "Consultation and satisfaction facts cite P09/P10; the different-respondents caveat is cited."
+          },
+          "valid_source_ids": {
+            "pass": true,
+            "evidence": "Uses only P09 and P10; no invalid IDs."
+          },
+          "evidence_vs_interpretation": {
+            "pass": true,
+            "evidence": "The satisfaction comparison is paired with the different-respondents caveat; no unsupported causal claim."
+          },
+          "tone_title_footnotes": {
+            "pass": true,
+            "evidence": "Professional tone and concise title/footnotes. Caveat: limitations-heavy (six caveats), but still within length and relevant."
+          },
+          "limitations_caveats": {
+            "pass": true,
+            "evidence": "Limitations cover respondent differences, reasons for satisfaction, demographics, total consultations, survey methodology, and patient outcomes."
+          }
+        }
+      },
+      "body_word_count": 281,
+      "review": {
+        "rubric_pass": true,
+        "failed_items": [],
+        "body_word_count": 281,
+        "total_word_count": 295
+      }
+    }
+  ],
+  "review_metadata": {
+    "reviewed_at": "2026-11-19",
+    "reviewer": "OpenCode agent manual rubric review",
+    "raw_results": "results/evaluation.json",
+    "model": "gpt-4o-mini",
+    "settings": {
+      "temperature": 0.0,
+      "provider_endpoint": "configured via .env; not recorded"
+    },
+    "topics": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ],
+    "word_count_method": "Body words counted with the evaluator regex after removing title/header lines and footnotes; automatic word_count includes title, headers and footnotes.",
+    "overall_pass_rule": "All six manual rubric items must pass. Items: length 250-350 body words; claim-level citations; valid supplied source IDs; evidence separated from interpretation with no overreach; professional tone and concise title/footnotes; limitations/caveats.",
+    "execution_errors_count_as_failures": true,
+    "execution_errors_observed": 0,
+    "notes": [
+      "Raw results/evaluation.json is preserved unchanged; this reviewed copy adds rubric annotations.",
+      "The automatic checks cannot judge grounding, tone or claim-level citation completeness, so manual annotations override the null rubric_pass field.",
+      "Baseline T01 fails the automatic total-word check (355) but passes the 250-350 body rule (301); baseline T05 passes the automatic total-word check (301) but fails the body rule (249).",
+      "The baseline has full-corpus access; the team retrieves excerpts via MCP. This is an architectural comparison, not a controlled experiment.",
+      "Team T01 resumed from a pre-evaluation scratchpad (resumed=true); its token total covers post-resume calls and is not a clean fresh-run cost comparison. The other team runs were fresh."
+    ]
+  },
+  "manual_review_summary": {
+    "baseline": {
+      "passed": 2,
+      "failed": 3,
+      "evaluated": 5,
+      "failure_rate": 0.6
+    },
+    "multi_agent": {
+      "passed": 4,
+      "failed": 1,
+      "evaluated": 5,
+      "failure_rate": 0.2
+    },
+    "error_amplification_ratio": 0.33333333333333337,
+    "ear_status": "defined",
+    "ear_explanation": "EAR = multi-agent failure rate / baseline failure rate = 0.20 / 0.60 = 0.333... The baseline rate is non-zero, so the ratio is defined. Both rates and counts are reported because n=5.",
+    "length_interpretation_sensitivity": "If length is interpreted as total words instead of body words, baseline T01 fails and baseline T05 passes; the baseline failure count remains 3/5 and EAR remains 0.33.",
+    "cost": "Provider cost was not supplied in the response; token counts are reported and no cost is fabricated."
+  }
+}

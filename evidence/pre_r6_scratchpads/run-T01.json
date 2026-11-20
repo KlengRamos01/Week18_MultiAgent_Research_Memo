@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "run_id": "T01",
+  "topic_id": "T01",
+  "topic": "Assess rooftop solar installation trends in Northstar.",
+  "status": "running",
+  "turn_count": 0,
+  "updated_at": "2026-11-18T07:30:22+00:00",
+  "state": {
+    "topic": "Assess rooftop solar installation trends in Northstar.",
+    "topic_id": "T01",
+    "run_id": "T01",
+    "snippets": [
+      {
+        "text": "In 2025, the fictional Northstar region installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024. Installations are measured as new capacity, not electricity generated.",
+        "source": "P01",
+        "relevance": "direct"
+      },
+      {
+        "text": "Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025. Commercial installations increased from 60 to 65 megawatts over the same period.",
+        "source": "P02",
+        "relevance": "direct"
+      },
+      {
+        "text": "The fictional firm Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.",
+        "source": "P03",
+        "relevance": "context"
+      }
+    ],
+    "draft_memo": null,
+    "review_verdict": null,
+    "turn_count": 0,
+    "summary": "",
+    "status": "running",
+    "rejections": 0,
+    "verdict_history": [],
+    "messages": [
+      {
+        "role": "researcher",
+        "node": "researcher",
+        "turn": 0,
+        "content": "MCP search_corpus returned 3 cited snippets via 4 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md'].",
+        "tokens": 44
+      }
+    ],
+    "compacted_upto": 0,
+    "compaction_events": [],
+    "transcript_tokens": 44,
+    "total_tokens": 0,
+    "mcp_calls": 4,
+    "mcp_evidence": [
+      {
+        "at": "2026-11-18T07:30:22+00:00",
+        "transport": "stdio",
+        "server": "mcp_server.py",
+        "tools": [
+          "search_corpus"
+        ],
+        "resources": [
+          "corpus://market/corpus.csv",
+          "corpus://market/glossary.md"
+        ],
+        "queries": [
+          "northstar rooftop solar installation trends",
+          "rooftop solar installation trends northstar",
+          "northstar rooftop solar",
+          "northstar installation trends"
+        ],
+        "tool_calls": 4,
+        "returned": 3,
+        "selected": [
+          {
+            "source": "P01",
+            "score": 5,
+            "topic_hits": 3,
+            "entity_hits": 1,
+            "relevance": "direct"
+          },
+          {
+            "source": "P02",
+            "score": 5,
+            "topic_hits": 3,
+            "entity_hits": 1,
+            "relevance": "direct"
+          },
+          {
+            "source": "P03",
+            "score": 2,
+            "topic_hits": 0,
+            "entity_hits": 1,
+            "relevance": "context"
+          }
+        ],
+        "glossary_loaded": true
+      }
+    ],
+    "errors": [],
+    "trace": [
+      {
+        "at": "2026-11-18T07:30:22+00:00",
+        "node": "researcher",
+        "turn": 0,
+        "handoff": "hand_back",
+        "status": "running",
+        "note": "MCP search_corpus returned 3 cited snippets via 4 tool calls; tools=['search_corpus']; resources=['corpus://market/corpus.csv', 'corpus://market/glossary.md']."
+      }
+    ],
+    "created_at": "2026-11-18T07:30:22+00:00",
+    "updated_at": "2026-11-18T07:30:22+00:00",
+    "resume_count": 0
+  }
+}

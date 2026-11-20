@@ -1,0 +1,46 @@
+PASS  fresh state routes to researcher via typed handoff
+PASS  snippets without a draft routes to writer
+PASS  draft awaiting review routes to reviewer
+PASS  accepted verdict ends the run as completed
+PASS  revision request routes back to writer
+PASS  three rejections escalate to a human and stop
+PASS  supervisor turn cap of 8 stops with a logged status
+PASS  accept outranks a stale rejection counter
+PASS  scratchpad reload restores state and turn continuation
+PASS  stop-after drill interrupts, then resume continues from scratchpad
+PASS  completed runs do not resume
+PASS  typed handoff tools are the only routing surface
+PASS  required shared-state fields exist in the schema
+PASS  researcher uses a real stdio MCP tool call and returns 3-5 cited snippets
+PASS  writer uses only shared snippets and returns a typed memo
+PASS  writer repairs a too-short memo once
+PASS  writer rejects citations that are not in the snippets
+PASS  reviewer accepts a clean memo and records the typed verdict
+PASS  reviewer sees only the memo and rubric, never the snippets
+PASS  reviewer gates length with a deterministic revise verdict
+PASS  worker errors stop the run with an explicit error status
+PASS  offline end-to-end flow: Supervisor-Research-Write-Review-Accept
+PASS  compaction does nothing below the 8,000 token threshold
+PASS  compaction triggers above 8,000 tokens and preserves decisions, rejections and draft size
+PASS  repeating compaction for the same history span is idempotent
+PASS  later history replaces the summary instead of appending duplicates
+PASS  compaction failure is recorded and does not stop the run
+PASS  terminal summary gains later verdicts without duplicating the line
+
+28/28 checks passed; scratchpads in /var/folders/3n/p6hvgwm54m33y_w0p3fkmd_h0000gn/T/team-r1-y0_38twh
+Processing request of type ListToolsRequest
+Processing request of type ListResourcesRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type ReadResourceRequest
+Processing request of type ListToolsRequest
+Processing request of type ListResourcesRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type ReadResourceRequest

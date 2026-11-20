@@ -1,0 +1,37 @@
+{
+  "server": "/Users/klengramos/Week18_Research_Memo_Learner_Starter/mcp_server.py",
+  "transport": "stdio",
+  "resources": [
+    "corpus://market/corpus.csv",
+    "corpus://market/glossary.md"
+  ],
+  "tools": [
+    "search_corpus"
+  ],
+  "resource_reads": {
+    "corpus_items": 1,
+    "glossary_items": 1
+  },
+  "sample_search": {
+    "query": "solar",
+    "returned": 2,
+    "sources": [
+      "P01",
+      "P02"
+    ]
+  },
+  "researcher": {
+    "goto": "supervisor",
+    "mcp_calls": 4,
+    "snippets": [
+      "P01",
+      "P02",
+      "P03"
+    ],
+    "transport": "stdio"
+  },
+  "no_direct_corpus_access": {
+    "team.researcher": true,
+    "mcp_client": true
+  }
+}

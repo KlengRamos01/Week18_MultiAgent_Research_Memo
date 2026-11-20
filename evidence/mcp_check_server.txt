@@ -1,0 +1,10 @@
+Processing request of type ListResourcesRequest
+Processing request of type ListToolsRequest
+Processing request of type ReadResourceRequest
+Processing request of type ReadResourceRequest
+Processing request of type CallToolRequest
+Resources: ['corpus://market/corpus.csv', 'corpus://market/glossary.md']
+Tools: ['search_corpus']
+Read corpus://market/corpus.csv items: 1
+Read corpus://market/glossary.md items: 1
+Search result: [TextContent(type='text', text='{\n  "text": "In 2025, the fictional Northstar region installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024. Installations are measured as new capacity, not electricity generated.",\n  "source": "P01"\n}', annotations=None, meta=None), TextContent(type='text', text='{\n  "text": "Northstar\'s residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025. Commercial installations increased from 60 to 65 megawatts over the same period.",\n  "source": "P02"\n}', annotations=None, meta=None)]
